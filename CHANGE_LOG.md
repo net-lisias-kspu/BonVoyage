@@ -5,25 +5,25 @@
 		- Unmanned rover must have an active connection to set a target or issue the GO command if you are using the CommNet
 		- Added toggle to the Settings to disable rotation of a rover perpendicularly to the terrain after arriving to a target and during a ride
 		- Added Rotation vector advanced tweakable
-			- Rotation of a rover depends on the orientation of the root part. You can now set the vector used for rotating the rover.
-			- This setting is accessible after enabling Advanced tweakables in the KSP settings
-			- Default value is "Back" - for rovers, whose root part is a probe or a cab oriented in such a way, that you see horizont line on the navball
-			- Other usual values are "Up" and "Down", if the default setting is putting your rover on it's (usually) shorter side. You need experiment a little bit in this case to find the right setting.
+		- Rotation of a rover depends on the orientation of the root part. You can now set the vector used for rotating the rover.
+		- This setting is accessible after enabling Advanced tweakables in the KSP settings
+		- Default value is "Back" - for rovers, whose root part is a probe or a cab oriented in such a way, that you see horizont line on the navball
+		- Other usual values are "Up" and "Down", if the default setting is putting your rover on it's (usually) shorter side. You need experiment a little bit in this case to find the right setting.
 * 2018-1110: 0.14.1.1 (jarosm) for KSP 1.5.1
 	+ Fixes
 		- Fixed detection of KSP Interstellar Extended generators
 	+ Changes
-			- Kopernicus support - solar panels are working even when you are around other stars
-			- Added support for Bison Cab from Wild Blue Industries
-			- Bon Voyage will try to rotate a rover perpendicularly to a terrain
+		- Kopernicus support - solar panels are working even when you are around other stars
+		- Added support for Bison Cab from Wild Blue Industries
+		- Bon Voyage will try to rotate a rover perpendicularly to a terrain
 * 2018-1104: 0.14.0_-_New_voyage (jarosm) for KSP 1.5.1
 	+ Changes
 		- KSP 1.5.1 compatibility
 		- Major overhaul - We are getting ready to extend our operations to the water in the future.
 		- Localization support
 		- KSPWheel module system check change
-			- Required EC is scaled by a motor's output setting
-			- Maximum speed is taken from maxDrivenSpeed field, which is scaled by gear setting, and capped at max safe speed
+		- Required EC is scaled by a motor's output setting
+		- Maximum speed is taken from maxDrivenSpeed field, which is scaled by gear setting, and capped at max safe speed
 		- Direct input of target coordinates
 		- Stabilization of a rover during scene switching into flight, if it's moving or just arrived at a destination. The function is switched off, if World Stabilizer or BD Armory is present.
 		- Added MiniAVC
@@ -33,15 +33,15 @@
 		- Fixed rover skipping kilometers forward to the target under some circumstances
 		- Removed forgotten harmless debug warning message
 	+ Changes
-			- Added tooltip to the *System check* button to better explain it's function
+		- Added tooltip to the *System check* button to better explain it's function
 * 2018-1104: 0.14.0 (jarosm) for KSP 1.5.1
 	+ Changes
 		- KSP 1.5.1 compatibility
 		- Major overhaul - We are getting ready to extend our operations to the water in the future.
 		- Localization support
 		- KSPWheel module system check change
-			- Required EC is scaled by a motor's output setting
-			- Maximum speed is taken from maxDrivenSpeed field, which is scaled by gear setting, and capped at max safe speed
+		- Required EC is scaled by a motor's output setting
+		- Maximum speed is taken from maxDrivenSpeed field, which is scaled by gear setting, and capped at max safe speed
 		- Direct input of target coordinates
 		- Stabilization of a rover during scene switching into flight, if it's moving or just arrived at a destination. The function is switched off, if World Stabilizer or BD Armory is present.
 * 2018-0314: 0.13.3 (jarosm) for KSP 1.4.1
@@ -56,16 +56,16 @@
 		- Tooltip change
 		- Pilots, USI Scouts and anyone with AutopilotSkill affect speed
 	+ Fixes
-			- Various fixes
+		- Various fixes
 * 2017-0929: 0.13.1 (jarosm) for KSP 1.3.0
 	+ Changes
 		- Displayed information revision
 		- Change in background processing (TAC-LS compatibility!)
 		- Pilots and USI Scouts affect rover speed depending on their level
 	+ Fixes
-			- Fixed drawing of the line to a target
-			- Fixed wrong path to images on Linux
-			- Various fixes
+		- Fixed drawing of the line to a target
+		- Fixed wrong path to images on Linux
+		- Various fixes
 * 2017-0913: 0.13.0 (jarosm) for KSP 1.3.0
 	+ Changes
 		- KSP 1.3 compatibility
@@ -75,10 +75,10 @@
 		- Average speed change - reduction based on power
 		- Shutdown/Activate BV Controller
 	+ Fixes
-			- Fixed target longitude display
-			- App launcher button fix
-			- Adjusted vessel altitude from terrain
-			- Night time ride fix
+		- Fixed target longitude display
+		- App launcher button fix
+		- Adjusted vessel altitude from terrain
+		- Night time ride fix
 * 2017-0317: 0.12.0 (jarosm) for KSP 1.2.2
 	+ Fixes
 		- Change a few frequently called `foreach` loops to `for` by [soulsource](https://github.com/Real-Gecko/KSP-BonVoyage/pull/3)
@@ -91,12 +91,12 @@
 		- ModuleWheelBase used to determine if wheel is on the ground by [Kerbas-ad-astra](https://github.com/Real-Gecko/KSP-BonVoyage/pull/6)
 		- Allow travelling "below" sea level if celestial body has no ocean
 	+ Changes
-			- KSPWheels support
-			- Separate UI for module control, no mess in right click menu
-			- Integrated UIFramework
-			- Path compressed with [lz-string-csharp](https://github.com/jawa-the-hutt/lz-string-csharp) to use less space in save file
-			- Show route only for active rover
-			- Interstellar reactors support
+		- KSPWheels support
+		- Separate UI for module control, no mess in right click menu
+		- Integrated UIFramework
+		- Path compressed with [lz-string-csharp](https://github.com/jawa-the-hutt/lz-string-csharp) to use less space in save file
+		- Show route only for active rover
+		- Interstellar reactors support
 * 2016-1211: 0.11.1 (jarosm) for KSP 1.2.2
 	+ Fixes for KSP 1.2.2
 	+ Added "Close" button to main window
@@ -171,12 +171,12 @@
 		- ModuleWheelBase used to determine if wheel is on the ground by [Kerbas-ad-astra](https://github.com/Real-Gecko/KSP-BonVoyage/pull/6)
 		- Allow travelling "below" sea level if celestial body has no ocean
 	+ Changes
-			- KSPWheels support
-			- Separate UI for module control, no mess in right click menu
-			- Integrated UIFramework
-			- Path compressed with [lz-string-csharp](https://github.com/jawa-the-hutt/lz-string-csharp) to use less space in save file
-			- Show route only for active rover
-			- Interstellar reactors support
+		- KSPWheels support
+		- Separate UI for module control, no mess in right click menu
+		- Integrated UIFramework
+		- Path compressed with [lz-string-csharp](https://github.com/jawa-the-hutt/lz-string-csharp) to use less space in save file
+		- Show route only for active rover
+		- Interstellar reactors support
 		- [screenshot6](https://cloud.githubusercontent.com/assets/2231969/24061553/0af45ab2-0b82-11e7-81fb-807086ddb330.png)
 * 2016-1211: 0.11.1 (Real-Gecko) for KSP 1.2.2
 	+ Fixes for KSP 1.2.2
