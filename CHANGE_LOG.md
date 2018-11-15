@@ -1,5 +1,7 @@
 # Bon Voyage :: Archive
 
+* 2016-0916: 0.9.9.9 (jarosm) for KSP 1.1.3
+	+ No changelog provided
 * 2017-0317: 0.12.0 (Real-Gecko) for KSP 1.2.2
 	+ Fixes
 		- Change a few frequently called `foreach` loops to `for` by [soulsource](https://github.com/Real-Gecko/KSP-BonVoyage/pull/3)
