@@ -1,5 +1,15 @@
 # Bon Voyage :: Archive
 
+* 2018-1104: 0.14.0 (jarosm) for KSP 1.5.1
+	+ Changes
+		- KSP 1.5.1 compatibility
+		- Major overhaul - We are getting ready to extend our operations to the water in the future.
+		- Localization support
+		- KSPWheel module system check change
+			- Required EC is scaled by a motor's output setting
+			- Maximum speed is taken from maxDrivenSpeed field, which is scaled by gear setting, and capped at max safe speed
+		- Direct input of target coordinates
+		- Stabilization of a rover during scene switching into flight, if it's moving or just arrived at a destination. The function is switched off, if World Stabilizer or BD Armory is present.
 * 2018-0314: 0.13.3 (jarosm) for KSP 1.4.1
 	+ Changes
 		- KSP 1.4.1 compatibility
