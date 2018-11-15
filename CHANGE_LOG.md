@@ -1,5 +1,8 @@
 # Bon Voyage :: Archive
 
+* 2018-0314: 0.13.3 (jarosm) for KSP 1.4.1
+	+ Changes
+		- KSP 1.4.1 compatibility
 * 2017-1014: 0.13.2.1 (jarosm) for KSP 1.3.1
 	+ Fixes
 		- Fixed required power of wheels with KSPWheel module
