@@ -1,5 +1,11 @@
 # Bon Voyage :: Archive
 
+* 2018-1105: 0.14.0.1 (jarosm) for KSP 1.5.1
+	+ Fixes
+		- Fixed rover skipping kilometers forward to the target under some circumstances
+		- Removed forgotten harmless debug warning message
+	+ Changes
+			- Added tooltip to the *System check* button to better explain it's function
 * 2018-1104: 0.14.0 (jarosm) for KSP 1.5.1
 	+ Changes
 		- KSP 1.5.1 compatibility
